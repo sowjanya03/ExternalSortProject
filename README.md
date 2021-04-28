@@ -6,7 +6,7 @@ External sort algorithm is used to save main memory usage while sorting a large 
 ### 1. Fetching Database:
 Use the below command to fetch the 500MB of records and save it to events.json output file
 mongoexport --uri mongodb+srv://sowjanya_3:*$pwd*@clusterexercises.104co.mongodb.net/testDB --collection=irs_data --db=testDB --out=events.json
-*$pwd* - Request for password
+$pwd - Request for password
 
 ### 2. Adding Dependencies 
 pom.xml

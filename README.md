@@ -21,7 +21,8 @@ ii. Argument2 - output file where the sorted records need to be stored
 
 ### 3. Steps to run:
 In your IDE(ex. Eclipse), go to the run configurations and add the paths to these two files in the Arguments section. Then hit run button.
-If dealing with a high amount of data such as 500MB, you might need to increase the java heap space to complete this operation.
+If dealing with a high amount of data such as 500MB, you might need to increase the java heap space to complete this operation as hown in step 4.
+Otherwise use the testinput.json file which is of 300KB size.
 
 ### 4. Steps to increase java heap space:
 In the run configurations, go to Arguments section and add "-Xms5046M -Xmx10092M" to the VM arguments textbox.
